@@ -1,0 +1,57 @@
+body {
+  margin: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid;
+}
+
+.filters {
+  margin: 16px -8px;
+  display: flex;
+}
+
+.filters input,
+.filters button {
+  margin: 0 8px;
+}
+
+.pagination {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-button {
+  font-size: 0.8rem;
+  margin: 0.3rem;
+  width: 30px;
+}
+
+.pagination-buttons {
+  text-align: center;
+  width: 75%;
+}
+
+.items-per-page {
+  width: 25%;
+}
+
+.items-per-page span {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
